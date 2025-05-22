@@ -27,13 +27,4 @@ $ pip install -r requirements.txt
 5. Get the wired IPV4 address, starting with '169.254.xx..' and replace this IP address in `compClient.py` where the comment says "IMPORTANT."
 6. Refresh and Download all files to EV3. 
 7. Run the`EVServer.py` class in the EV3 SSH terminal. Make sure to use command "cd" to navigate to working directory.
-8. Run the `compClient.py` class in IDE of choice terminal and follow the prompts. 
-
-NOTE: There are a lot of issues initating a connecting with the EV3, due to its hardware limitations. While the above steps work in theory, occasionally the connection still fails. Starting the process over should help. 
-
-1 - open ollama
-2 - wired connection
-3 - redo number
-4 - refresh + redownload files
-5 - open ssh + ev3 server
-6 - run compclient
+8. Run the `compClient.py` class in terminal of your IDE of choice and follow the prompts. 
